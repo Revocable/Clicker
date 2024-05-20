@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clicker</title>
-    <link rel="stylesheet" href="./css/index.css" />
-  </head>
-  <body>
-    <p id="coinsText">Coins: 0</p>
-    <div id="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clicker</title>
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <div id="coins">
+    <img src="./assets/Emerald.webp" alt="" height="50px" width="50px">
+    <p id="coinsText">0</p>
+    <button id="botaoLimpar">Clear Data</button>
+  </div>
+  <div id="container">
+    <a href="http://" target="_blank" rel="noopener noreferrer">
+      <div id="picareta"></div>
       <div id="clickArea"></div>
-      <div id="shop">
-        <div class="shopItem" id="1">
-          <div class="imgShopItem"><img src="./assets/pickaxe.png" alt="" height="50px" width="50px"></div>
-          <p class="nomeItem">Minerador</p>
-          <p class="preco">$300</p>
-          <div class="buttonDiv">
-            <button class="buttonComprar">Comprar</button>
-          </div>
+    </a>
+
+    <div id="shop">
+      <div class="shopItem" id="1">
+        <div class="imgShopItem"><img src="./assets/villager.webp" alt="" class="imgShopItem"></div>
+        <p class="nomeItem">Villager</p>
+        <p class="preco">$20</p>
+        <div class="buttonDiv">
+          <button class="buttonComprar">Comprar</button>
         </div>
-        <div class="shopItem" id="2">
-          <div class="imgShopItem"><img src="./assets/crusher.png" alt="" height="50px" width="50px"></div>
-          <p class="nomeItem">Máquina</p>
-          <p class="preco">$1500</p>
-          <div class="buttonDiv">
-            <button class="buttonComprar">Comprar</button>
-          </div>
+        <p class="qtde"></p>
+      </div>
+      <div class="shopItem" id="2">
+        <div class="imgShopItem"><img src="./assets/furnace.webp" alt="" class="imgShopItem"></div>
+        <p class="nomeItem">Furnace</p>
+        <p class="preco">$1500</p>
+        <div class="buttonDiv">
+          <button class="buttonComprar">Comprar</button>
         </div>
+        <p class="qtde"></p>
       </div>
     </div>
+  </div>
 
-    <script src="./js/index.js"></script>
-  </body>
+  <script src="./js/index.js"></script>
+</body>
+
 </html>
