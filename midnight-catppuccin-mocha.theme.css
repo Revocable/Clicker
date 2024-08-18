@@ -88,7 +88,7 @@
 
 /* catppuccin icon */
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url('https://e7.pngegg.com/pngimages/842/992/png-clipart-discord-computer-servers-teamspeak-discord-icon-video-game-smiley-thumbnail.png');
+	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
 	background-color: transparent !important;
 	background-size: cover;
 }
